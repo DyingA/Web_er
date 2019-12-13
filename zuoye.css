@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#left{
+	width: 3px;
+	height: 415px;
+	background-color: black;
+	float: left;
+}
+#right{
+	width: 3px;
+	height: 415px;
+	background-color: black;
+	float: right;
+}
+#title{
+	height: 20px;
+	width: 1533px;
+	background-color: #ccc;
+	margin-top: 0px; 
+}
+#img{
+	padding-left: 200px;
+}
+#notice{
+    width: 1090px;
+    height: 20px;
+    float: right;
+	margin-right: 200px;
+}
+#box{
+	height: 320px;
+	width: 1200px;
+	margin-left: 200px;
+	position: relative;
+	overflow: hidden;
+}
+#images{
+	width:8400px;
+	position: absolute;
+	left: -1200px;
+}
+.sider{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+ul,li{
+	list-style: none;		
+}
+#content{
+	height: 340px;
+	width: 1200px;
+	padding-top: 10px;
+	padding-right:0px;
+	float: left;
+}
+#box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0; 
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: grey;
+	cursor: pointer;
+	margin:  0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
+#leftNode{
+	left: 30px;
+}
+#rightNode{
+	right: 30px;
+}
